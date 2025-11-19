@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ucapan Ulang Tahun</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Inter", sans-serif;
+            background: #f8f5f1;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .card {
+            background: #ffffffcc;
+            backdrop-filter: blur(6px);
+            border-radius: 16px;
+            padding: 40px;
+            max-width: 600px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+            animation: fadeIn 1.2s ease;
+        }
+
+        h1 {
+            font-size: 32px;
+            margin-bottom: 16px;
+            color: #5a4b8a;
+            text-align: center;
+        }
+
+        .heart {
+            text-align: center;
+            font-size: 40px;
+            margin-bottom: 20px;
+            color: #e37e93;
+        }
+
+        p {
+            line-height: 1.6;
+            margin-bottom: 14px;
+            font-size: 16px;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(15px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="heart">💖</div>
+        <h1>Selamat Ulang Tahun, Sayang</h1>
+
+        <p>
+            Hari ini aku cuma mau mengingatkan betapa berartinya dirimu buat aku.
+            Terima kasih sudah jadi tempat pulang, tempat cerita, dan sumber ketenangan
+            yang ga pernah gagal bikin hidup aku lebih lembut.
+        </p>
+
+        <p>
+            Aku bangga sama perjalananmu, sama kekuatanmu, sama caramu tumbuh setiap hari.
+            Semoga tahun ini bawa lebih banyak pelukan hangat, kesempatan baik, dan
+            kebahagiaan yang kamu pantas dapatkan.
+        </p>
+
+        <p>
+            Terima kasih sudah ada di sini, dan semoga aku bisa terus jadi seseorang
+            yang bisa kamu sandari. Aku sayang kamu, lebih dari yang bisa aku tulis di halaman ini. 💛
+        </p>
+    </div>
+</body>
+</html>
